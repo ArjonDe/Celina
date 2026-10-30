@@ -10,7 +10,6 @@
     --bg1: #fff5f8;
     --bg2: #fde4ec;
     --text: #8a3b5c;
-    --sub: #b2768f;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; }
@@ -58,10 +57,6 @@
     margin: 4px 0 0; opacity: 0; animation: fade 1.5s ease forwards 3s;
     text-shadow: 0 2px 12px rgba(255,255,255,.8);
   }
-  p.sub {
-    color: var(--sub); font-style: italic; font-size: clamp(1rem, 4vw, 1.3rem);
-    margin: 4px 0 0; opacity: 0; animation: fade 1.5s ease forwards 3.8s; text-align: center;
-  }
 
   .petal-fall {
     position: fixed; top: -30px; width: 14px; height: 22px; pointer-events: none;
@@ -76,7 +71,7 @@
 </head>
 <body>
 
-<svg id="bouquet" viewBox="-50 0 700 640"aria-label="Ein Strauß weißer und rosa Lilien">
+<svg id="bouquet" viewBox="-50 0 700 640" aria-label="Ein Strauß weißer und rosa Lilien">
   <defs>
     <linearGradient id="petalWhite" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffffff"/>
